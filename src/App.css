@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+/* header */
+.header{
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* movie-box */
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+  align-items: center;
+ 
+}
+.Movie{
+  background-color: #dcdcdc;
+  padding: 14px;
+  width: 17%;
+  height: 38rem;
+  color: black;
+  border: solid 1px black;
+  border-radius: 2%;
+  text-align: start;
+  margin: 10px;
+}
+.Poster{
+  max-width: 25rem;
+  height: 30rem;
+}
